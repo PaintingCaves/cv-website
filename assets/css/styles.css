@@ -1,1 +1,53 @@
-ECHO is on.
+*{
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template-columns:1fr 800px 1fr;
+  grid-template-rows: 10% 1fr 10%;
+  grid-template-areas:
+  'header header header'
+  'padding-left body padding-right'
+  'footer footer footer';
+  grid-gap: 15px;
+  height: auto;
+}
+.navListItem{
+  display: inline;
+}
+@media (max-width: 800px){
+  body{
+    grid-template-columns: 0fr 1fr 0fr;
+    grid-template-areas:
+    'header header header'
+    'padding-left body padding-right'
+    'footer footer footer';
+    grid-gap: 0px;
+  }
+}
+#topNav {
+  grid-area: header;
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid white;
+}
+
+#bodyArea{
+  grid-area: body;
+}
+
+#bottomFooter{
+  grid-area: footer;
+}
+
+#paddingLeft{
+  grid-area: padding-left;
+}
+#padding-right{
+  grid-area: padding-right;
+}
+
+div, nav, footer, article {
+  background-color: red;
+  padding: 20px;
+}
