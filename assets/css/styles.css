@@ -1,6 +1,5 @@
 *{
   box-sizing: border-box;
-
 }
 body {
   display: grid;
@@ -12,12 +11,16 @@ body {
   'footer footer footer';
   grid-gap: 15px;
   height: auto;
-  background-color: grey;
+  background-image: url("../images/04.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
 }
 /* Styling for top links */
 .navListItem{
   display: inline;
   padding-right: 15px;
+  font-size: 27px;
 }
 .navListLink{
   text-decoration: none;
@@ -26,6 +29,7 @@ body {
 #navList{
   text-align: center;
   padding-left: 0px;
+  margin-top: 0px;
 }
 @media (max-width: 800px){
   body{
@@ -62,7 +66,8 @@ body {
   grid-area: header;
   position: sticky;
   top: 0;
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid rgba(250, 250, 250, 0.5);
+  background-color: rgba(234, 237, 71, 0.72);
 }
 #bottomFooter{
   grid-area: footer;
@@ -75,6 +80,5 @@ body {
 }
 
 div, nav, footer, article {
-    background-color: rgb(129, 127, 125);
   padding: 20px;
 }

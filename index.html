@@ -10,12 +10,12 @@
   <body class="raleway">
       <nav id="topNav">
           <ul id="navList" class="vollkorn">
-            <li class="navListItem"><a href="#" class="navListLink">Home</a></li>
+            <li class="navListItem"><a href="#homeContent" class="navListLink">Home</a></li>
             <!-- <li class="navListItem"><a href="#" class="navListLink">Interests</a></li> -->
             <li class="navListItem"><a href="#educationContent" class="navListLink">Education</a></li>
-            <li class="navListItem"><a href="#" class="navListLink">Skills</a></li>
-            <li class="navListItem"><a href="#" class="navListLink">Experience</a></li>
-            <li class="navListItem"><a href="#" class="navListLink">Contact</a></li>
+            <li class="navListItem"><a href="#skillsContent" class="navListLink">Skills</a></li>
+            <li class="navListItem"><a href="#experienceContent" class="navListLink">Experience</a></li>
+            <li class="navListItem"><a href="#contactContent" class="navListLink">Contact</a></li>
           </ul>
       </nav>
       <div class="" id="paddingLeft">
@@ -23,8 +23,9 @@
       </div>
       <article class="" id="bodyArea ">
         <section class="content" id="homeContent">
-          <h2>Introduction</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>Nicholas Mazower</h2>
+          <h3>Web development student</h3>
+            <p class="bumpIn">Nicholas is an avid consumer of knowledge and a dedicated problem solver.</p>
         </section>
         <!-- Deprecated and potentially will be removed -->
         <!-- <section class="content" id="interestsContent">
@@ -54,7 +55,7 @@
             <h3>CodeSpace</h3>
             <p>Course: Front End Web Development</p>
             <p>Programming languages:</p>
-            <p class="bumpIn">Macroeconomics, Microeconomics, Public Sector Economics, Global Finance, Applied International Trade Bargaining, Philosophy, Foreign Policy Analysis and International Political Economy.  </p>
+            <p class="bumpIn">Macroeconomics, Microeconomics, Public Sector Economics, Global Finance, Applied International Trade Bargaining, Philosophy, Foreign Policy Analysis and International Political Economy.</p>
           </section>
         </section>
         <section class="content" id="skillsContent">
@@ -67,7 +68,14 @@
         </section>
         <section class="content" id="experienceContent">
           <h2>Experience</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <section class="bumpIn">
+          <h3>Delivery xTreme</h3>
+          <p class="bumpIn">Worked as a shift manager from January to December 2012. Responsibilities included assigning and dispatching delivery drivers. Paying out drivers and doing a cash-up and Managing a team of phone operators.</p>
+        </section>
+        <section class="bumpIn">
+          <h3>Snowshoe Mountain</h3>
+          <p class="bumpIn">Worked as an on-mountain sales agent from November 2015 to February 2016 at the resort in West Virginia, USA. Responsibilities included selling ski passes and other packages to guests. Acting as first point of call for guest queries. Taking in money and performing a cash-up.</p>
+        </section>
         </section>
       </article>
       <div class="" id="paddingRight">
@@ -75,6 +83,7 @@
       </div>
       <footer id="bottomFooter"></footer>
       <script type="text/javascript">
+      //Sticky heady scroll fix
       window.addEventListener("hashchange", function() { scrollBy(0, -95) })
 
 
