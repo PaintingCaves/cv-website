@@ -34,17 +34,44 @@ body {
     grid-gap: 0px;
   }
 }
+.content{
+  padding-top: 15px;
+  background-color: green;
+}
+#bodyArea{
+  grid-area: body;
+  /* Internal content grid */
+  /* display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:1fr;
+  grid-template-areas:
+  'home'
+  'interests'
+  'education'
+  'skills'
+  'experience'; */
+}
+#homeContent{
+  /* grid-area: home; */
+}
+#interestsContent{
+  /* grid-area: interests; */
+}
+#educationContent{
+  /* grid-area: education; */
+}
+#skillsContent{
+  /* grid-area: skills; */
+}
+#experienceContent{
+  /* grid-area: experience; */
+}
 #topNav {
   grid-area: header;
   position: sticky;
   top: 0;
   border-bottom: 3px solid white;
 }
-
-#bodyArea{
-  grid-area: body;
-}
-
 #bottomFooter{
   grid-area: footer;
 }
