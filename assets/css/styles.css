@@ -35,8 +35,11 @@ body {
   }
 }
 .content{
-  padding-top: 15px;
-  background-color: green;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  border-top: double grey 4px;
+  border-bottom: double grey 4px;
+
 }
 #bodyArea{
   grid-area: body;
