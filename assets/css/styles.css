@@ -57,31 +57,6 @@ body {
 }
 #bodyArea{
   grid-area: body;
-  /* Internal content grid */
-  /* display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns:1fr;
-  grid-template-areas:
-  'home'
-  'interests'
-  'education'
-  'skills'
-  'experience'; */
-}
-#homeContent{
-  /* grid-area: home; */
-}
-#interestsContent{
-  /* grid-area: interests; */
-}
-#educationContent{
-  /* grid-area: education; */
-}
-#skillsContent{
-  /* grid-area: skills; */
-}
-#experienceContent{
-  /* grid-area: experience; */
 }
 #topNav {
   grid-area: header;
