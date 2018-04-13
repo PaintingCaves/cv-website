@@ -12,8 +12,17 @@ body {
   grid-gap: 15px;
   height: auto;
 }
+/* Styling for top links */
 .navListItem{
   display: inline;
+  padding-right: 15px;
+}
+.navListLink{
+  text-decoration: none;
+  color: black;
+}
+#navList{
+  text-align: center;
 }
 @media (max-width: 800px){
   body{
