@@ -51,8 +51,11 @@ body {
   border-radius: 5%;
 }
 .topImage{
-  background-image: url(../images/moody.jpg);
+  background-image: url(../images/wider.jpg);
   grid-area: image;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: center;
 }
 /* Utility Classes */
 .bumpIn {
