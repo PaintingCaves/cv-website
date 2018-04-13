@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+
 }
 body {
   display: grid;
@@ -11,6 +12,7 @@ body {
   'footer footer footer';
   grid-gap: 15px;
   height: auto;
+  background-color: grey;
 }
 /* Styling for top links */
 .navListItem{
@@ -39,7 +41,18 @@ body {
   color: white;
   border-top: double grey 4px;
   border-bottom: double grey 4px;
-
+  padding: 0px 10px;
+  border-radius: 5%;
+}
+/* Utility Classes */
+.bumpIn {
+  padding-left: 10px;
+}
+.vollkorn{
+  font-family: 'Vollkorn', serif;
+}
+.raleway{
+  font-family: 'Raleway', sans-serif;
 }
 #bodyArea{
   grid-area: body;
@@ -78,7 +91,6 @@ body {
 #bottomFooter{
   grid-area: footer;
 }
-
 #paddingLeft{
   grid-area: padding-left;
 }
@@ -87,6 +99,6 @@ body {
 }
 
 div, nav, footer, article {
-  background-color: red;
+    background-color: rgb(129, 127, 125);
   padding: 20px;
 }
