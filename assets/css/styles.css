@@ -38,10 +38,21 @@ body:not(.owl-carousel) {
   }
 }
 .image{
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   padding: 10px;
   border-radius: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.contactListLink{
+  text-decoration: none;
+  color:gold;
+}
+.contact-list{
+  list-style-type:none;
+  
 }
 .content{
   background-color: rgb(10, 10, 10);
