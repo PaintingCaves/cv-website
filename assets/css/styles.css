@@ -4,10 +4,9 @@
 body {
   display: grid;
   grid-template-columns:1fr 800px 1fr;
-  grid-template-rows: 10% 1fr 4fr 10%;
+  grid-template-rows: 10% 4fr 10%;
   grid-template-areas:
   'header header header'
-  'image image image'
   'padding-left body padding-right'
   'footer footer footer';
   grid-gap: 15px;
@@ -32,7 +31,7 @@ body {
   padding-left: 0px;
   margin-top: 0px;
 }
-@media (max-width: 800px){
+@media (max-width: 768px){
   body{
     grid-template-columns: 0fr 1fr 0fr;
     grid-template-areas:
@@ -42,6 +41,12 @@ body {
     grid-gap: 0px;
   }
 }
+.image{
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 25%;
+}
 .content{
   background-color: rgb(10, 10, 10);
   color: white;
@@ -50,13 +55,7 @@ body {
   padding: 0px 10px;
   border-radius: 5%;
 }
-.topImage{
-  background-image: url(../images/wider.jpg);
-  grid-area: image;
-  background-repeat: no-repeat;
-  /* background-size: contain; */
-  background-position: center;
-}
+
 /* Utility Classes */
 .bumpIn {
   padding-left: 10px;
