@@ -1,4 +1,14 @@
 $(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        items:5,
+        autoplay: true,
+        autoplayTimeout:2500,
+        dots: false,
+    });
+});
+
+$(document).ready(function () {
     //Sticky heady scroll fix
     // window.addEventListener("hashchange", function () { scrollBy(0, -95) })
 
