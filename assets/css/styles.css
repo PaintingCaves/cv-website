@@ -9,8 +9,7 @@ body:not(.owl-carousel) {
   'header header header'
   'padding-left body padding-right'
   'footer footer footer';
-  column-gap: 15px;
-  row-gap: 30px;
+  grid-gap: 15px;
   height: auto;
   background-image: url("../images/04.jpg");
   background-position: center;
@@ -61,6 +60,8 @@ body:not(.owl-carousel) {
   border-top: double grey 4px;
   border-bottom: double grey 4px;
   padding: 0px 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   /* border-radius: 5%; */
 }
 .carousel-div{
