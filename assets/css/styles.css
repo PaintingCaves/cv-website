@@ -57,15 +57,19 @@ body:not(.owl-carousel) {
 .contactListLink{
   text-decoration: none;
   color:gold;
-  display: inline;
   padding-right: 15px;
   font-size: 20px;
+}
+.experience-list{
+    list-style-type:none;
 }
 .contact-list{
   list-style-type:none;
   
 }
-
+.contact-list-item{
+  display: inline;
+}
 #name-heading{
   margin-top:10px;
   margin-bottom: 0px;
