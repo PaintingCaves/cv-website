@@ -9,7 +9,8 @@ body:not(.owl-carousel) {
   'header header header'
   'padding-left body padding-right'
   'footer footer footer';
-  grid-gap: 30px;
+  column-gap: 15px;
+  row-gap: 30px;
   height: auto;
   background-image: url("../images/04.jpg");
   background-position: center;
