@@ -63,6 +63,9 @@ body:not(.owl-carousel) {
 .experience-list{
     list-style-type:none;
 }
+.experience-list-item{
+  margin-left: 15px;
+}
 .contact-list{
   list-style-type:none;
   
