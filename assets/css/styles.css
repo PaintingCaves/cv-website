@@ -48,6 +48,12 @@ body:not(.owl-carousel) {
   margin-right: auto; */
   float: left;
   display: block;
+  filter:grayscale(100%);
+  transition: grayscale 0.5s;
+
+}
+.image:hover{
+  filter: grayscale(0%);
 }
 .contactListLink{
   text-decoration: none;
