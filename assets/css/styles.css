@@ -44,8 +44,9 @@ body:not(.owl-carousel) {
   height: auto;
   padding: 10px;
   /* border-radius: 25%; */
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  float: left;
   display: block;
 }
 .contactListLink{
@@ -55,6 +56,15 @@ body:not(.owl-carousel) {
 .contact-list{
   list-style-type:none;
   
+}
+
+#name-heading{
+  margin-top:10px;
+  margin-bottom: 0px;
+
+}
+#sub-heading{
+  margin-top: 5px;
 }
 .content{
   background-color: rgb(10, 10, 10);
