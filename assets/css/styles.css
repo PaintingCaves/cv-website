@@ -21,6 +21,7 @@ body:not(.owl-carousel) {
   display: inline;
   padding-right: 15px;
   font-size: 27px;
+  text-transform: uppercase;
 }
 .navListLink{
   text-decoration: none;
