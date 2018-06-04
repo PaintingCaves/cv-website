@@ -29,7 +29,8 @@ body:not(.owl-carousel) {
 #navList{
   text-align: center;
   padding-left: 0px;
-  margin-top: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 @media (max-width: 768px){
   body{
@@ -65,7 +66,7 @@ body:not(.owl-carousel) {
   /* border-radius: 5%; */
 }
 .carousel-div{
-  border-radius:20%;
+  /* border-radius:20%; */
   background-color:rgba(57, 221, 186, 0.918);
 }
 /* Utility Classes */
