@@ -49,7 +49,6 @@ body:not(.owl-carousel) {
   float: left;
   display: block;
   filter:grayscale(100%);
-  transition: grayscale 0.5s;
 
 }
 .image:hover{
