@@ -84,12 +84,15 @@ body:not(.owl-carousel) {
 .content{
   background-color: rgb(10, 10, 10);
   color: white;
-  border-top: double grey 4px;
-  border-bottom: double grey 4px;
+  /* border-top: double grey 4px;
+  border-bottom: double grey 4px; */
   padding: 0px 10px;
   margin-bottom: 15px;
   margin-top: 15px;
   /* border-radius: 5%; */
+}
+img .carousel-div{
+  filter: grayscale(100%);
 }
 .carousel-div{
   /* border-radius:20%; */
@@ -99,6 +102,13 @@ body:not(.owl-carousel) {
 /* Utility Classes */
 .bumpIn {
   padding-left: 10px;
+}
+h2 #skillsContent{
+  color: black;
+}
+
+#skillsContent{
+    background-color:rgba(57, 221, 186, 0.918);
 }
 .vollkorn{
   font-family: 'Vollkorn', serif;
