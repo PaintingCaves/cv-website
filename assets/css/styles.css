@@ -94,6 +94,7 @@ body:not(.owl-carousel) {
 #skillsHeading{
   position: absolute;
   color: black;
+  z-index: 100;
 }
 .grayscale{
   filter: grayscale(100%);
