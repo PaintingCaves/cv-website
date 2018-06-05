@@ -91,24 +91,25 @@ body:not(.owl-carousel) {
   margin-top: 15px;
   /* border-radius: 5%; */
 }
-img .carousel-div{
+#skillsHeading{
+  position: absolute;
+  color: black;
+}
+.grayscale{
   filter: grayscale(100%);
 }
 .carousel-div{
   /* border-radius:20%; */
-  background-color:rgba(57, 221, 186, 0.918);
+  background-color:rgba(57, 221, 186, 1);
   height: 250px;
 }
 /* Utility Classes */
 .bumpIn {
   padding-left: 10px;
 }
-h2 #skillsContent{
-  color: black;
-}
 
 #skillsContent{
-    background-color:rgba(57, 221, 186, 0.918);
+    background-color:rgba(57, 221, 186, 1);
 }
 .vollkorn{
   font-family: 'Vollkorn', serif;
