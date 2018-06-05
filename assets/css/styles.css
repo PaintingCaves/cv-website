@@ -1,6 +1,23 @@
 *{
   box-sizing: border-box;
 }
+#portfolioContent{
+  display: grid;
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  grid-template-areas: 
+  'one two'
+  'three four';
+}
+.portfolioImage{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 body:not(.owl-carousel) {
   display: grid;
   grid-template-columns:1fr 800px 1fr;
@@ -138,7 +155,25 @@ body:not(.owl-carousel) {
 #padding-right{
   grid-area: padding-right;
 }
-
+#portfolio-1{
+  grid-area: one;
+}
+#portfolio-2{
+  grid-area: two;
+}
+#portfolio-3{
+  grid-area: three;
+}
+#portfolio-4{
+  grid-area: four;
+}
+.portfolioLink{
+  text-decoration: none;
+  color: white;
+}
+#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4 {
+  margin: 0;
+}
 div, nav, footer, article {
   padding: 20px;
 }
