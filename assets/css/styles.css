@@ -12,9 +12,23 @@ h1, h2, h3 {
 }
 .educationText{
   font-size: 1.5em;
+  margin-bottom: 0;
 }
 .educationDate{
   padding-right: 100px;
+}
+#eddate1, #eddate2, #eddate3, #edtext1, #edtext2, #edtext3{
+  padding: 0;
+}
+#educationGrid{
+  display: grid;
+  grid-template-columns: 17.5% 87.5%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  'eddate1 edtext1'
+  'eddate2 edtext2'
+  'eddate3 edtext3';
+  gap: 10px;
 }
 #experienceContent{
   display: grid;
@@ -25,20 +39,24 @@ h1, h2, h3 {
   'date2 text2';
   gap: 10px;
 }
+
 #date1{
   grid-area: date1;
 }
 #date2{
   grid-area: date2;
+  padding-bottom: 0;
 }
 #text1{
   grid-area: text1;
 }
 #text2{
   grid-area: text2;
+  padding-bottom: 0;
 }
 .experienceText{
   font-size: 1.5em;
+  margin-bottom: 0;
 }
 #date1, #date2 {
   padding-left: 0; 
@@ -63,11 +81,10 @@ h1, h2, h3 {
 body:not(.owl-carousel) {
   display: grid;
   grid-template-columns:1fr 900px 1fr;
-  grid-template-rows: 10% 4fr 10%;
+  grid-template-rows: 10% 4fr;
   grid-template-areas:
   'header header header'
-  'padding-left body padding-right'
-  'footer footer footer';
+  'padding-left body padding-right';
   grid-gap: 15px;
   height: auto;
   background-image: url("../images/04.jpg");
@@ -106,7 +123,7 @@ body:not(.owl-carousel) {
 .image{
   max-width: 50%;
   height: auto;
-  padding: 1px 10px 10px 10px;
+  padding-right:10px;
   /* border-radius: 25%; */
   /* margin-left: auto;
   margin-right: auto; */
@@ -114,6 +131,11 @@ body:not(.owl-carousel) {
   display: block;
   filter:grayscale(100%);
 
+}
+
+
+#contactContent{
+  margin-bottom: 0;
 }
 .image:hover{
   filter: grayscale(0%);
@@ -138,8 +160,9 @@ body:not(.owl-carousel) {
   display: inline;
 }
 #name-heading{
-  margin-top:10px;
+  margin-top:0px;
   margin-bottom: 0px;
+  line-height: 0.8;
 
 }
 #sub-heading{
@@ -152,13 +175,14 @@ body:not(.owl-carousel) {
   color: white;
   /* border-top: double grey 4px;
   border-bottom: double grey 4px; */
-  padding: 5px 10px;
+  padding: 15px;
   margin-bottom: 15px;
   margin-top: 15px;
   /* border-radius: 5%; */
 }
 #homeContent{
   overflow: auto;
+  margin-top: 0;
 }
 #skillsHeading{
   position: absolute;
@@ -171,7 +195,7 @@ body:not(.owl-carousel) {
 .carousel-div{
   /* border-radius:20%; */
   background-color:rgba(57, 221, 186, 1);
-  height: 250px;
+  height: 280px;
 }
 /* Utility Classes */
 .bumpIn {
@@ -180,6 +204,7 @@ body:not(.owl-carousel) {
 
 #skillsContent{
     background-color:rgba(57, 221, 186, 1);
+    padding: 15px;
 }
 
 .raleway{
@@ -192,8 +217,7 @@ body:not(.owl-carousel) {
   grid-area:header;
   position: sticky;
   top: 0;
-  border-bottom: 3px solid rgba(250, 250, 250, 0.5);
-  background-color:rgba(57, 221, 186, 0.95);
+  background-color:rgba(57, 221, 186, 1);
   z-index: 1000;
   display: grid;
   grid-template-columns: auto 900px auto;
@@ -201,6 +225,9 @@ body:not(.owl-carousel) {
   grid-template-areas:
   'vacant-left navigation vacant-right';
   grid-gap: 15px;
+}
+h2{
+  margin-top: 0;
 }
 #bottomFooter{
   grid-area: footer;
