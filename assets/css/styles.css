@@ -7,6 +7,42 @@
 h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
+#educationContent{
+  margin-bottom: 0;
+}
+.educationText{
+  font-size: 1.5em;
+}
+.educationDate{
+  padding-right: 100px;
+}
+#experienceContent{
+  display: grid;
+  grid-template-columns: 17.5% 87.5%;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+  'date1 text1'
+  'date2 text2';
+  gap: 10px;
+}
+#date1{
+  grid-area: date1;
+}
+#date2{
+  grid-area: date2;
+}
+#text1{
+  grid-area: text1;
+}
+#text2{
+  grid-area: text2;
+}
+.experienceText{
+  font-size: 1.5em;
+}
+#date1, #date2 {
+  padding-left: 0; 
+}
 #portfolioContent{
   display: grid;
   text-decoration: none;
@@ -109,6 +145,8 @@ body:not(.owl-carousel) {
 #sub-heading{
   margin-top: 5px;
 }
+
+
 .content{
   background-color: rgb(10, 10, 10);
   color: white;
